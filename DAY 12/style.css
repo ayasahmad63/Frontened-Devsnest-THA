@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lightblue;
+     
+
+  
+}
+#app {
+    width: 100vw;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+     
+}
+#container {
+ 
+    width:50%;
+    height: 50%;
+    background-color:brown;
+    text-align: center;
+    
+}
+button{
+    height: 100%;
+    width: 100%;
+   float: right; 
+   background-color: black;
+   color: white;
+    
+}
+
+#todo{
+    height: 100%;
+    width: 98%;
+    background-color: wheat;
+    font-size: 24px;
+    margin: 5px 0px;
+    padding: 3px ;
+
+}
+li{
+list-style: none;
+color: burlywood;
+font-size: 24px;
+background-color: grey;
+padding: 10px;
+margin: 30px 0px;
+
+}
+#remove{
+    width: 15%;
+    display: none;
+}
+li:hover #remove{
+    display: inline;
+}
+.completed{
+    text-decoration: line-through;
+}
