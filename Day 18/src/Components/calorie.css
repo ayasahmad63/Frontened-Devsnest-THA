@@ -1,0 +1,21 @@
+.container{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px;
+    margin: 3px;
+    padding: 3px;
+    transition:0.5s;
+    display: flex;
+    overflow: hidden;
+}
+.cal-color{
+    background-color:red;
+    height: 100px;
+    width: 100px;
+  
+}
+.container:hover{
+    transform: scale(1.01);
+}
