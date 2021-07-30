@@ -1,0 +1,14 @@
+.full{
+    width: 300px;
+    height: 300px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    display: inline;
+}
+.contain{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    overflow: scroll;
+}
