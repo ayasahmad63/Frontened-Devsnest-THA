@@ -1,0 +1,9 @@
+.container{
+    background-color: aqua;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    box-shadow: 2px;
+    margin: 3px;
+    padding: 3px;
+}
